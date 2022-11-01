@@ -1,3 +1,46 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
-    background: blue;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+header {
+    text-align: center;
+    height: 50px;
+}
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+}
+#messages {
+    height: 20px;
+}
+.player {
+    background-color: greenyellow;
+    float: left;
+    width: 45%;
+}
+#player-image {
+    width: 75%;
+}
+.computer {
+    background-color: orangered;
+    float: right;
+    width: 45%;
+}
+#computer-image {
+    width: 75%;
 }

@@ -70,3 +70,22 @@ p {
     font-size: large;
     letter-spacing: 0.2rem;
 }
+
+footer {
+    position: absolute;
+    width: 100%;
+    min-height: 80px;
+    max-height: 100px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    left:0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1200;
+    letter-spacing: 0.2rem;
+}
+
+

@@ -6,15 +6,17 @@ const computerImage = document.getElementById("computer-image")
 const showResults = document.getElementById("result")
 let playerChoice
 let computerChoice
+let result
 /* event listener for playerChoice */
 
 allChoices.forEach(allChoices => allChoices.addEventListener('click', (e) => {
     playerChoice = e.target.id
     playerResult.innerHTML = playerChoice
-    generateResult()
-    playerImage.src = `assets/images/${[playerChoice]}.png.png`;
     generateChoiceComputer()
+  generateResult()
+  playerImage.src = `assets/images/${[playerChoice]}.png.png`;
 }))
+
 
 
 function generateChoiceComputer() {

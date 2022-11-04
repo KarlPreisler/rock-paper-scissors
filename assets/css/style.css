@@ -8,13 +8,16 @@ body {
     font-family: "Raleway", sans-serif;
     color: black;
 }
+
 header {
     text-align: center;
     height: 50px;
 }
+
 h2 {
     display: block;
 }
+
 .game-area {
     width: 75%;
     margin-left: auto;
@@ -22,18 +25,21 @@ h2 {
     margin-top: 1%;
     text-align: center;
 }
+
 .control {
     display: inline-block;
     margin: 2px;
     width: 80px;
     height: 40px;
 }
+
 .player {
     background-color: rgb(94, 219, 78);
     float: left;
     width: 45%;
     height: 35rem;
 }
+
 #player-image {
     width: 75%;
 }
@@ -44,10 +50,23 @@ h2 {
     width: 45%;
     height: 35rem;
 }
+
 #computer-image {
     width: 75%;
 }
+
 #rps-buttons {
     padding-bottom: 10px;
-    }
-    
+}
+
+p {
+    font-size: x-large;
+    letter-spacing: 0.2rem;   
+}
+
+#computers-choice, #player-choice, h4 {
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 0.2rem;
+}

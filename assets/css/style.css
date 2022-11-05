@@ -20,6 +20,7 @@ h2 {
 
 .game-area {
     width: 75%;
+    height:auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
@@ -37,7 +38,8 @@ h2 {
     background-color: rgb(94, 219, 78);
     float: left;
     width: 45%;
-    height: 35rem;
+    max-height: 35rem;
+    min-height: 35rem;
 }
 
 #player-image {
@@ -48,7 +50,8 @@ h2 {
     background-color: rgb(236, 109, 77);
     float: right;
     width: 45%;
-    height: 35rem;
+    max-height: 35rem;
+    min-height: 35rem;
 }
 
 #computer-image {
@@ -74,18 +77,46 @@ p {
 footer {
     position: absolute;
     width: 100%;
-    min-height: 80px;
-    max-height: 100px;
-    padding-top: 5px;
+    min-height: 60px;
+    max-height:100px;
     box-sizing: border-box;
     left:0;
     bottom: 0;
     background-color: black;
     color: white;
+   
+}
+footer > h5 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: xx-large;
     font-weight: 1200;
     letter-spacing: 0.2rem;
+    padding-bottom: 1px;
 }
-
-
+/*
+@media only screen and (max-width: 800px) {
+    footer {
+      position: absolute;
+      display: block;
+    }
+    footer > h5 {
+        font-size: small;
+    }
+    .player {
+        min-height: auto;
+        max-height:auto ;
+    }
+    
+    
+  }
+  @media only screen and (min-width: 801px) {
+    footer > h5 {
+      font-size: 30px;
+      letter-spacing: 0.1rem;
+    }
+    
+  }
+  

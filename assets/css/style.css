@@ -4,7 +4,7 @@ html {
 }
  
 body {
-    background-color: white;
+    background-color:antiquewhite;
     font-family: "Raleway", sans-serif;
     color: black;
 }
@@ -30,8 +30,13 @@ h2 {
 .control {
     display: inline-block;
     margin: 2px;
-    width: 80px;
     height: 40px;
+    background-color:white;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:15%;
+    font-size: large;
 }
 
 .player {
@@ -56,12 +61,31 @@ h2 {
     width: 45%;
 }
 
+.control  {
+    background-color:white;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    width:100px;
+    font-size: large;
+}
+
+.control:hover {
+    background-color:rgb(228, 228, 228);
+    cursor:pointer;
+}
+
+.control:active {
+    background-color: rgb(80, 228, 117);
+    color: white;
+}
+
 #rps-buttons {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 p {
-
     font-size: x-large;
     letter-spacing: 0.2rem;   
 }
@@ -90,7 +114,7 @@ footer {
     margin-top: 1%;
 }
 #textroom {
-   height:20px; 
+   height: 20px; 
 }
 /*
 @media only screen and (max-width: 1200px) {

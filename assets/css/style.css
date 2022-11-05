@@ -20,7 +20,7 @@ h2 {
 
 .game-area {
     width: 75%;
-    height:auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
@@ -38,24 +38,22 @@ h2 {
     background-color: rgb(94, 219, 78);
     float: left;
     width: 45%;
-    max-height: 35rem;
-    min-height: 35rem;
+    padding-bottom: 5%;
 }
 
 #player-image {
-    width: 75%;
+    width: 45%;
 }
 
 .computer {
     background-color: rgb(236, 109, 77);
     float: right;
     width: 45%;
-    max-height: 35rem;
-    min-height: 35rem;
+    padding-bottom: 5%;
 }
 
 #computer-image {
-    width: 75%;
+    width: 45%;
 }
 
 #rps-buttons {
@@ -63,6 +61,7 @@ h2 {
 }
 
 p {
+
     font-size: x-large;
     letter-spacing: 0.2rem;   
 }
@@ -95,6 +94,12 @@ footer > h5 {
     font-weight: 1200;
     letter-spacing: 0.2rem;
     padding-bottom: 1px;
+}
+/*
+@media only screen and (max-width: 1200px) {
+    .player, .computer {
+        min-height: auto;
+    }
 }
 /*
 @media only screen and (max-width: 800px) {

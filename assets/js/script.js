@@ -64,7 +64,7 @@ function generateChoiceComputer() {
       result = "You win!"
     }
     if (computerChoice === "scissors" && playerChoice === "paper") {
-      result = "you lose!"
+      result = "You lose!"
     }
     showResults.innerHTML = result;
    

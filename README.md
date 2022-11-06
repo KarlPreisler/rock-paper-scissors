@@ -52,10 +52,9 @@ This provides the user with clear information about what they are about to play.
 ## Testing
 - I have tested that this website works appropriately in the following browsers: Chrome, Firefox and Safari.
 - I confirmed that this website looks good and functions the way it should on all standard screen sizes using the devtools device toolbar.
-- I have confirmed that all headers and sections are easy to understand and readable.
-- No elements are distracted by background-colors, and all content is easily readable.
+- I have confirmed that all headers and sections are legible in terms of positioning and readability.
+- No elements are distracted by background-colors, and no images are stretched when viewed on different devices.
 - I have made sure that all functions work properly and the game works as intended.
-- I have tested that all links open in a new tab.
 - I have made sure that all buttons work as intended.
 - I have made sure that the website is responsive to all devices, using media queries to change the placement of the footer to adapt to different screen sizes.
 
@@ -66,7 +65,8 @@ This provides the user with clear information about what they are about to play.
 
 (INCLUDE LIGHTHOUSE SCORE)
 
-(INCLUDE TESTING PAGE)
+![Screenshot_20221106_082101](https://user-images.githubusercontent.com/114813115/200190596-99b08d57-4a6c-4f65-882a-18beb8d50a2a.png)
+
 
 ## Bugs
 There are no unfixed bugs.

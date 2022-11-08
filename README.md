@@ -4,7 +4,7 @@ The Rock Paper Scissors website provides the chance to play the well known game 
 
 The users of the website will be able to choose between three options, rock paper or scissors, and play a round against a computer. The result of each round is displayed in text and the rules for the game are also available to the user in the footer of the website.
 
-![Ami Screenshot PP2](https://user-images.githubusercontent.com/114813115/200184449-af7e101b-c2e6-4d8b-87e7-02b4d43250cb.png)
+![Updated Screenshot Responsive AMI](https://user-images.githubusercontent.com/114813115/200616530-a0da725a-c9cc-4552-a210-3222008da996.png)
 
 ## Features:
 
@@ -12,27 +12,39 @@ The users of the website will be able to choose between three options, rock pape
 - On the top of the page the name of the game is displayed, “Rock Paper Scissors Game”.
 This provides the user with clear information about what they are about to play.
 
-![Screenshot_20221106_061349](https://user-images.githubusercontent.com/114813115/200185032-84eee3a1-c94d-4fd6-baae-4c17dc28f8ec.png)
+![Screenshot_20221108_050158](https://user-images.githubusercontent.com/114813115/200615332-efd90f2f-155a-49f0-943e-0b1f715705d3.png)
 
 ## The Sub-Header
 - The second header underneath the game title is displaying the text: “Choose an option:” This indicates to the user that they have the possibility to change the outcome of the game and that they are about to make a decision.
  
-![Screenshot_20221106_061404](https://user-images.githubusercontent.com/114813115/200185039-690f117e-1c09-46bf-b421-6ac2d8a8b229.png)
+![Screenshot_20221108_050217](https://user-images.githubusercontent.com/114813115/200615399-6320c643-6b12-4b1c-a4a8-40fdb6d647de.png)
 
 ## The Buttons
--  The three buttons are the options that the user can choose from, they display: Rock, Paper, Scissors, respectively. 
+- The three buttons are the options that the user can choose from, they display: Rock, Paper, Scissors, respectively. 
 - When hovering over each of these buttons they indicate that they are clickable by changing background color to a slightly darker shade. 
 - If the user clicks any of the buttons their choice will be recorded while calling an action to generate a random choice for the user's opponent, the computer. 
 - A click of any of the buttons will also call a function to compare the users and computer’s choice in order to generate a result. 
 - The function for displaying the result is also called.
 
-![Screenshot_20221106_061410](https://user-images.githubusercontent.com/114813115/200185048-332e9b21-95b3-439f-bb1f-f96b718f6e23.png)
+![Screenshot_20221108_050230](https://user-images.githubusercontent.com/114813115/200615419-610a8572-939f-44e5-9674-478510de078c.png)
+
+## The Restart Link
+- This link acts as a restart for the game and provides the user with a way to reset the scores of both the player and the computer by simply reloading the page. 
+- The link is named "Restart Game" with an underline, and a hover color of green in order to give a clear indication to the user that it is clickable.
+
+![Screenshot_20221108_050242](https://user-images.githubusercontent.com/114813115/200615460-b441fc85-bb20-47e4-adfc-68102928c9ba.png)
+
+## The Scores Section
+- The Scores Section features two rows of text: "Your Score", and "Computer Score". When entering the site these values are set to zero, and this value will increase in increments of 1 by each round won by either the computer or player.
+- This provides the user with an easy way to keep track of the results of each round.
+
+![Screenshot_20221108_050302](https://user-images.githubusercontent.com/114813115/200615554-7518e787-7380-4e0b-bd47-11aae0da77bb.png)
 
 ## The Result Section
 - The result section shows the result after each round, it can display either "You lose!", "You win!" or "It's a draw!" depending on the outcome of the round. 
 - This provides the user with a clear indication of what the outcome was of the last round played.
  
-![Screenshot_20221106_061416](https://user-images.githubusercontent.com/114813115/200188422-2c547d25-b8a5-4fb9-b291-b2864ba3c534.png)
+![Screenshot_20221108_050253](https://user-images.githubusercontent.com/114813115/200615576-d4ecffdf-e6e1-4d02-9c72-369b612dc8e7.png)
 
 ## The Game Area
 - The Game Area is where the choices of both the computer and user are displayed. This is also where the result of each round is displayed. 

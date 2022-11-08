@@ -55,23 +55,23 @@ h2 {
     width:100px;
     font-size: large;
 }
-
+.player, .computer {
+    width: 45%;
+    padding-bottom: 5%;
+}
 .player {
     background-color: rgb(94, 219, 78);
     float: left;
-    width: 45%;
-    padding-bottom: 5%;
 }
 
 .computer {
     background-color: rgb(236, 109, 77);
     float: right;
-    width: 45%;
-    padding-bottom: 5%;
 }
 
 #player-image, #computer-image {
     width: 45%;
+    max-height: 250px;
 }
 
 #computers-choice, #player-choice, h4, h3 {

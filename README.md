@@ -108,3 +108,10 @@ There are no unfixed bugs.
 - Type git clone, and then paste the URL you copied earlier.
 - Press enter to begin the clone process.
 
+## Credits
+- Google fonts imported from https://fonts.google.com/about
+- Images imported from free source https://www.clipartmax.com/so/rock-paper-scissors-clipart/
+- Responsiveness screenshot taken from: https://ui.dev/amiresponsive
+
+##  Acknowledgements
+- My mentor Brian Machiara for great support and guidance.

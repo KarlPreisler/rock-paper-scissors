@@ -4,7 +4,7 @@ The Rock Paper Scissors website provides the chance to play the well known game 
 
 The users of the website will be able to choose between three options, rock paper or scissors, and play a round against a computer. The result of each round is displayed in text and the rules for the game are also available to the user in the footer of the website.
 
-![Updated Screenshot Responsive AMI](https://user-images.githubusercontent.com/114813115/200616530-a0da725a-c9cc-4552-a210-3222008da996.png)
+![FINAL SCREENSHOT PP2 AMIRESPONSIVE](https://user-images.githubusercontent.com/114813115/200673134-8a4b4b26-c72e-4b8a-96c6-8c4250e492e3.png)
 
 ## Features:
 
@@ -33,6 +33,9 @@ This provides the user with clear information about what they are about to play.
 - This Provides the user with the opportunity to start over as they might be unhappy with the scores or simply want to play a certain number of rounds before they want to have a clean start again. 
 - When hovering over the Reset Scores button the cursor will turn into a pointer and the background-color will slightly change color in order to indicate that it's a clickable button.
 - When hovering over the button the border of the button will turn to the color red in order to indicate that the player should be cautious with this button, as it might delete that winning streak that the player worked so hard for.
+
+![RESET SCORES SCREENSHOT PP2](https://user-images.githubusercontent.com/114813115/200673217-93229270-fafb-4496-a20a-deaff3e51021.png)
+
 
 ## The Scores Section
 - The Scores Section features two rows of text: "Your Score", and "Computer Score". When entering the site these values are set to zero, and this value will increase in increments of 1 by each round won by either the computer or player.
@@ -75,7 +78,7 @@ This provides the user with clear information about what they are about to play.
 - No errors were found when passing through the CSS code through the official (Jigsaw) validator
 - No errors were found when passing the JavaScript code through the official Jshint validator.
 
-![Updated Mockup PP2](https://user-images.githubusercontent.com/114813115/200622265-17d5e32b-22c3-4528-969f-5d08849a0304.png)
+![FINAL MOCKUP PP2](https://user-images.githubusercontent.com/114813115/200673288-9be3131e-7d7f-440e-9f12-c76114056204.png)
 
 
 ## Lighthouse Score

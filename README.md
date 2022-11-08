@@ -75,7 +75,8 @@ This provides the user with clear information about what they are about to play.
 - No errors were found when passing through the CSS code through the official (Jigsaw) validator
 - No errors were found when passing the JavaScript code through the official Jshint validator.
 
-![Screenshot_20221106_082101](https://user-images.githubusercontent.com/114813115/200190596-99b08d57-4a6c-4f65-882a-18beb8d50a2a.png)
+![Updated Mockup PP2](https://user-images.githubusercontent.com/114813115/200622265-17d5e32b-22c3-4528-969f-5d08849a0304.png)
+
 
 ## Lighthouse Score
 

@@ -34,7 +34,7 @@ This provides the user with clear information about what they are about to play.
 - When hovering over the Reset Scores button the cursor will turn into a pointer and the background-color will slightly change color in order to indicate that it's a clickable button.
 - When hovering over the button the border of the button will turn to the color red in order to indicate that the player should be cautious with this button, as it might delete that winning streak that the player worked so hard for.
 
-![RESET SCORES SCREENSHOT PP2](https://user-images.githubusercontent.com/114813115/200673217-93229270-fafb-4496-a20a-deaff3e51021.png)
+![UPDATED RESET SCORES SCREENSHOt](https://user-images.githubusercontent.com/114813115/200673693-970eeb96-fa77-492f-9e3e-753398675a52.png)
 
 
 ## The Scores Section

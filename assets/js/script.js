@@ -42,9 +42,10 @@ function generateChoiceComputer() {
     }
     computerResult.innerHTML = computerChoice
     computerImage.src = `assets/images/${[computerChoice]}.png`;
-  }
+}
    
-  /* Generate results */
+/* This function will compare playerChoice and computerChoice in order to generate results. 
+** The result will add 1 score to the winner of the current round.*/
  let result
   function generateResult() {
     if (computerChoice === playerChoice) {

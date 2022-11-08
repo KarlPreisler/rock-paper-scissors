@@ -105,6 +105,13 @@ h2 {
     letter-spacing: 0.5px;    
 }
 
+#restart-game {
+    background-color: rgb(73, 91, 255);
+    color: rgb(0, 0, 0);
+}
+a:visited {
+    background-color: #ccc;
+  }
 
 /* Footer */
 

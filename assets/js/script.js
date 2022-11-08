@@ -6,6 +6,7 @@ const playerImage = document.getElementById("player-image")
 const computerImage = document.getElementById("computer-image")
 const showResults = document.getElementById("result")
 let playerScore = document.getElementById("player-score")
+let computerScore = document.getElementById("computer-score")
 
 let playerChoice
 let computerChoice
@@ -55,6 +56,7 @@ function generateChoiceComputer() {
     }
     else if(computerChoice === "rock" && playerChoice === "scissors") {
       result = "You lose!"
+      computerScore.innerHTML++;
     }
     else if(computerChoice === "paper" && playerChoice === "scissors") {
       result = "You win!"
@@ -62,6 +64,7 @@ function generateChoiceComputer() {
     }
     else if(computerChoice === "paper" && playerChoice === "rock") {
       result = "You lose!"
+      computerScore.innerHTML++;
     }
     else if(computerChoice === "scissors" && playerChoice === "rock") {
       result = "You win!"
@@ -69,6 +72,7 @@ function generateChoiceComputer() {
     }
     else if(computerChoice === "scissors" && playerChoice === "paper") {
       result = "You lose!"
+      computerScore.innerHTML++;
     }
     showResults.innerHTML = result;
   }

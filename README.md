@@ -19,7 +19,7 @@ This provides the user with clear information about what they are about to play.
  
 ![Screenshot_20221108_050217](https://user-images.githubusercontent.com/114813115/200615399-6320c643-6b12-4b1c-a4a8-40fdb6d647de.png)
 
-## The Buttons
+## The Rock, Paper and Scissors Buttons
 - The three buttons are the options that the user can choose from, they display: Rock, Paper, Scissors, respectively. 
 - When hovering over each of these buttons they indicate that they are clickable by changing background color to a slightly darker shade. 
 - If the user clicks any of the buttons their choice will be recorded while calling an action to generate a random choice for the user's opponent, the computer. 
@@ -28,11 +28,11 @@ This provides the user with clear information about what they are about to play.
 
 ![Screenshot_20221108_050230](https://user-images.githubusercontent.com/114813115/200615419-610a8572-939f-44e5-9674-478510de078c.png)
 
-## The Restart Link
-- This link acts as a restart for the game and provides the user with a way to reset the scores of both the player and the computer by simply reloading the page. 
-- The link is named "Restart Game" with an underline, and a hover color of green in order to give a clear indication to the user that it is clickable.
-
-![Screenshot_20221108_050242](https://user-images.githubusercontent.com/114813115/200615460-b441fc85-bb20-47e4-adfc-68102928c9ba.png)
+## The Reset Scores Button
+- The Reset Scores button sets the scores from both the computer and the player to zero, as well as resetting the text displayed in the Results section and also changing the Images to Allhands.png for both the player and computer. 
+- This Provides the user with the opportunity to start over as they might be unhappy with the scores or simply want to play a certain number of rounds before they want to have a clean start again. 
+- When hovering over the Reset Scores button the cursor will turn into a pointer and the background-color will slightly change color in order to indicate that it's a clickable button.
+- When hovering over the button the border of the button will turn to the color red in order to indicate that the player should be cautious with this button, as it might delete that winning streak that the player worked so hard for.
 
 ## The Scores Section
 - The Scores Section features two rows of text: "Your Score", and "Computer Score". When entering the site these values are set to zero, and this value will increase in increments of 1 by each round won by either the computer or player.

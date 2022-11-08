@@ -10,7 +10,7 @@ let computerScore = document.getElementById("computer-score")
 
 let playerChoice
 let computerChoice
-let result
+
 
 /** Grab each button and add Event listener for clicks, 
  * pass through event function
@@ -45,10 +45,10 @@ function generateChoiceComputer() {
   }
    
   /* Generate results */
- 
+ let result
   function generateResult() {
     if (computerChoice === playerChoice) {
-      result = "It's a draw!"
+    result = "It's a draw!"
     }
     else if(computerChoice === "rock" && playerChoice === "paper") {
       result = "You win!"

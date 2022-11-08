@@ -1,10 +1,11 @@
 /* Declare constants for DOM Elements*/
 const playerResult = document.getElementById("player-choice")
 const computerResult = document.getElementById("computers-choice")
-const allChoices = document.querySelectorAll('button')
+const allChoices = document.querySelectorAll("button")
 const playerImage = document.getElementById("player-image")
 const computerImage = document.getElementById("computer-image")
 const showResults = document.getElementById("result")
+let playerScore = document.getElementById("player-score")
 
 let playerChoice
 let computerChoice
@@ -21,7 +22,7 @@ allChoices.forEach(allChoices => allChoices.addEventListener('click', (e) => {
     playerResult.innerHTML = playerChoice
     generateChoiceComputer()
   generateResult()
-  playerImage.src = `assets/images/${[playerChoice]}.png.png`;
+  playerImage.src = `assets/images/${[playerChoice]}.png`;
 }))
 
 /* Generate random number and assign each as the computerChoice, call other functions. */
@@ -32,14 +33,14 @@ function generateChoiceComputer() {
     if (randomNumber === 1) {
       computerChoice = "rock"
     }
-    if (randomNumber === 2) {
+    else if(randomNumber === 2) {
       computerChoice = "scissors"
     }
-    if (randomNumber === 3) {
+    else if(randomNumber === 3) {
       computerChoice = "paper"
     }
     computerResult.innerHTML = computerChoice
-    computerImage.src = `assets/images/${[computerChoice]}.png.png`;
+    computerImage.src = `assets/images/${[computerChoice]}.png`;
   }
    
   /* Generate results */
@@ -48,22 +49,25 @@ function generateChoiceComputer() {
     if (computerChoice === playerChoice) {
       result = "It's a draw!"
     }
-    if (computerChoice === 'rock' && playerChoice === "paper") {
+    else if(computerChoice === "rock" && playerChoice === "paper") {
       result = "You win!"
+      playerScore.innerHTML++;
     }
-    if (computerChoice === "rock" && playerChoice === "scissors") {
+    else if(computerChoice === "rock" && playerChoice === "scissors") {
       result = "You lose!"
     }
-    if (computerChoice === "paper" && playerChoice === "scissors") {
+    else if(computerChoice === "paper" && playerChoice === "scissors") {
       result = "You win!"
+      playerScore.innerHTML++;
     }
-    if (computerChoice === "paper" && playerChoice === "rock") {
+    else if(computerChoice === "paper" && playerChoice === "rock") {
       result = "You lose!"
     }
-    if (computerChoice === "scissors" && playerChoice === "rock") {
+    else if(computerChoice === "scissors" && playerChoice === "rock") {
       result = "You win!"
+      playerScore.innerHTML++;
     }
-    if (computerChoice === "scissors" && playerChoice === "paper") {
+    else if(computerChoice === "scissors" && playerChoice === "paper") {
       result = "You lose!"
     }
     showResults.innerHTML = result;

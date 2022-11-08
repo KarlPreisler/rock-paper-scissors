@@ -99,19 +99,24 @@ h2 {
 
 /* score keeping */
 
-.score-keeping {
+.score-keeping, #restart-game {
     font-size: large;
     font-weight: 600;
     letter-spacing: 0.5px;    
 }
 
 #restart-game {
-    background-color: rgb(73, 91, 255);
-    color: rgb(0, 0, 0);
+    margin-top: 2%;
+    display: block;
+    color: rgb(0, 0, 0);   
 }
-a:visited {
-    background-color: #ccc;
-  }
+
+#restart-game:hover {
+    cursor: pointer;
+    color:rgb(0, 255, 0);
+
+}
+
 
 /* Footer */
 

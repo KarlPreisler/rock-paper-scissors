@@ -107,6 +107,9 @@ h2 {
     margin-top: 2%;
     display: block;
     color: rgb(0, 0, 0);   
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .score-keeping, #restart-game {

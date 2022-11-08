@@ -75,10 +75,11 @@ This provides the user with clear information about what they are about to play.
 - No errors were found when passing through the CSS code through the official (Jigsaw) validator
 - No errors were found when passing the JavaScript code through the official Jshint validator.
 
-(INCLUDE LIGHTHOUSE SCORE)
-
 ![Screenshot_20221106_082101](https://user-images.githubusercontent.com/114813115/200190596-99b08d57-4a6c-4f65-882a-18beb8d50a2a.png)
 
+## Lighthouse Score
+
+![Lighthouse PP2 Updated](https://user-images.githubusercontent.com/114813115/200618521-b49db6a9-45f6-40e3-ae73-98aa5ef515c5.png)
 
 ## Bugs
 There are no unfixed bugs.

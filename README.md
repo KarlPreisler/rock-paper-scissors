@@ -92,15 +92,11 @@ There are no unfixed bugs.
 - Choose Pages from the left side menu.
 - Select the Master Branch from the source section drop-down menu.
 - The page will automatically be refreshed with a detailed ribbon display to indicate that the deployment was successful.
-- Live link for the website -       
+- Live link for the website - https://karlpreisler.github.io/rock-paper-scissors/      
  
-(INCLUDE LIVE LINK)
 
 ## How to clone the repository
-- Go to the following repository on gitHub:      
-
-(INCLUDE REPOSITORY LINK)
-
+- Go to the following repository on gitHub: https://github.com/KarlPreisler/rock-paper-scissors
 - Above the list of files, click the green Code button.
 - Select HTTPs and copy the link provided by GitHub.
 - Open GitBash.

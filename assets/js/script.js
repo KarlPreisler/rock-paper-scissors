@@ -24,7 +24,7 @@ allChoices.forEach(allChoices => allChoices.addEventListener('click', (e) => {
   playerImage.src = `assets/images/${[playerChoice]}.png.png`;
 }))
 
-/* Generate random number and assign name for computerChoice, call other functions. */
+/* Generate random number and assign each as the computerChoice, call other functions. */
 
 function generateChoiceComputer() {
     const randomNumber = Math.floor(Math.random() * 3) + 1

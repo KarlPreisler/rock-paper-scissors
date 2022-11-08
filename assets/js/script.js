@@ -67,6 +67,5 @@ function generateChoiceComputer() {
       result = "You lose!"
     }
     showResults.innerHTML = result;
-   
   }
   

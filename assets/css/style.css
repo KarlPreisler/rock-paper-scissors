@@ -97,12 +97,10 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* score keeping */
+#restart-game:hover {
+    cursor: pointer;
+    color:rgb(0, 255, 0);
 
-.score-keeping, #restart-game {
-    font-size: large;
-    font-weight: 600;
-    letter-spacing: 0.5px;    
 }
 
 #restart-game {
@@ -111,12 +109,11 @@ h2 {
     color: rgb(0, 0, 0);   
 }
 
-#restart-game:hover {
-    cursor: pointer;
-    color:rgb(0, 255, 0);
-
+.score-keeping, #restart-game {
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 0.5px;    
 }
-
 
 /* Footer */
 

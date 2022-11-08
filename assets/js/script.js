@@ -6,8 +6,7 @@ const allChoices = document.querySelectorAll(".control");
 const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const showResults = document.getElementById("result");
-
-const resetButton = document.getElementById('reset-button')
+const resetButton = document.getElementById("reset-button");
 
 let playerScore = document.getElementById("player-score");
 let computerScore = document.getElementById("computer-score");

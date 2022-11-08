@@ -1,3 +1,4 @@
+/* General Styling */
 html {
     min-height: 100%;
     position: relative;
@@ -20,6 +21,18 @@ h2 {
     display: block;
     letter-spacing: 0.5px;
 }
+
+p {
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-weight: 600;  
+}
+
+.textroom {
+    height: 25px; 
+}
+
+/* Game Area */
 
 .game-area {
     width: 75%;
@@ -49,10 +62,6 @@ h2 {
     padding-bottom: 5%;
 }
 
-#player-image {
-    width: 45%;
-}
-
 .computer {
     background-color: rgb(236, 109, 77);
     float: right;
@@ -60,9 +69,18 @@ h2 {
     padding-bottom: 5%;
 }
 
-#computer-image {
+#player-image, #computer-image {
     width: 45%;
 }
+
+#computers-choice, #player-choice, h4 {
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 0.2rem;
+}
+
+/* Buttons */
 
 .control:hover {
     background-color:rgb(228, 228, 228);
@@ -78,18 +96,7 @@ h2 {
     padding-bottom: 5px;
 }
 
-p {
-    font-size: x-large;
-    letter-spacing: 1px;
-    font-weight: 600;  
-}
-
-#computers-choice, #player-choice, h4 {
-    color:rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: large;
-    letter-spacing: 0.2rem;
-}
+/* Footer */
 
 footer {
     position: absolute;
@@ -110,6 +117,9 @@ footer {
 .textroom {
    height: 25px; 
 }
+
+/* Media queries */
+
 @media only screen and (max-width: 1200px) {
     footer {
         position: relative;

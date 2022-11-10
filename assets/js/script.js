@@ -26,7 +26,7 @@ allChoices.forEach(allChoices => allChoices.addEventListener('click', (e) => {
   playerImage.src = `assets/images/${[playerChoice]}.png`;
 }));
 
-resetButton.addEventListener('click', startGame)
+resetButton.addEventListener('click', startGame);
 
 
 /* Set up the game. This is called when a fresh game starts or when the user
@@ -34,12 +34,12 @@ resetButton.addEventListener('click', startGame)
 */
 function startGame() {
   // Initialize/reset game state
-  playerScore.innerHTML = 0
-  computerScore.innerHTML = 0
-  showResults.innerHTML = ''
+  playerScore.innerHTML = 0;
+  computerScore.innerHTML = 0;
+  showResults.innerHTML = '';
 
-  playerImage.src = "assets/images/allhands.png"
-  computerImage.src = "assets/images/allhands.png"
+  playerImage.src = "assets/images/allhands.png";
+  computerImage.src = "assets/images/allhands.png";
 }
 /* Pick a random choice for the computer (rock, paper or scissors) and return it
 @returns {string} - One of 'rock', 'paper' or 'scissors'.
@@ -57,7 +57,7 @@ function generateChoiceComputer() {
   computerResult.innerHTML = computerChoice;
   computerImage.src = `assets/images/${[computerChoice]}.png`;
 
-  return computerChoice
+  return computerChoice;
 }
    
 /* This function will compare playerChoice and computerChoice in order to generate results. 
